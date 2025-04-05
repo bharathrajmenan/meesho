@@ -1,0 +1,661 @@
+.menu-2{
+        
+    border: 1px solid rgb(196, 191, 196);
+    font-weight: bold;
+    width: 1341px;
+    height: 58px;
+    color: rgb(85, 83, 83);    
+    align-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+}
+
+ul{
+    padding: 0%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 20px;
+   }
+
+li{
+    font-size: 15px;
+    color: solid black;
+   }
+
+ a.n1{
+   padding: 15px 20px;
+ }  
+/* first drop down block for women ethinic*/
+
+.women{
+    padding: 20px 10px 19px 10px;
+}
+
+.women:hover {
+    border-bottom: 3px solid purple;
+    color: purple;
+    font-style: bold;
+}
+
+.saree {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-1:hover .saree {
+    display: block;
+}
+
+.inelements-1 {
+    display: block;
+    flex-direction: column;
+    color: rgb(118, 121, 120);
+}
+
+.cross-1 {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    margin-top: 20px;
+
+    li {
+        margin: 4px;
+    }
+}
+
+.kurtis {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 170px;
+    background-color: rgb(255, 255, 255);
+    z-index:1; 
+}
+
+.opt-1:hover .kurtis
+{
+    display: block;
+}
+
+.kurta {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 300px;
+    z-index:1;
+}
+
+.opt-1:hover .kurta {
+    display: block;
+
+}
+
+.dupatta {
+
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 450px;
+    z-index:1;
+}
+
+.opt-1:hover .dupatta {
+    display: block;
+    z-index:1;
+}
+
+.allsu {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 580px;
+    z-index:1;
+}
+
+.opt-1:hover .allsu {
+    display: block;
+
+}
+
+
+.lehe {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 780px;
+    z-index:1;
+}
+
+.opt-1:hover .lehe {
+    display: block;
+
+}
+
+.blo {
+    margin-left: 100px;
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 132px;
+    top: 125px;
+    left: 0%;
+    display: none;
+    margin-left: 910px;
+    z-index:1;
+}
+
+.opt-1:hover .blo {
+    display: block;
+
+}
+
+
+
+/*second block for women western*/
+
+
+
+
+.women-west{
+    padding: 20px 10px 19px 10px;
+}
+
+.women-west:hover {
+    border-bottom: 3px solid purple;
+    color: purple;
+    font-style: bold;
+}
+
+.top{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-2:hover .top{
+    display: block;
+}
+
+.inelements-1{
+    display: block;
+    flex-direction: column;
+    color: rgb(118, 121, 120);
+}
+
+.cross-1{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    margin-top: 20px;
+
+    li {
+        margin: 4px;
+    }
+}
+
+.botto {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 170px;
+    background-color: rgb(250, 251, 252);
+    z-index:1; 
+}
+
+.opt-2:hover .botto{
+    display: block;
+}
+
+
+.inn {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 340px;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-2:hover .inn{
+    display: block;
+}
+
+.slee{position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 450px;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-2:hover .slee{
+    display: block;
+}
+
+.mater{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 580px;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-2:hover .mater{
+    display: block;
+}
+
+.sport{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 780px;    
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-2:hover .sport{
+    display: block;
+}
+
+
+/*third block of dropdown for men */
+
+
+.men{
+    padding: 20px 10px 19px 10px;
+}
+
+.men:hover {
+    border-bottom: 3px solid purple;
+    color: purple;
+    font-style: bold;
+}
+
+.topw{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-3:hover .topw{
+    display: block;
+}
+
+.inelements-1{
+    display: block;
+    flex-direction: column;
+    color: rgb(118, 121, 120);
+}
+
+.cross-1{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    margin-top: 20px;
+
+    li {
+        margin: 4px;
+    }
+}
+
+.botw {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 170px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-3:hover .botw{
+    display: block;
+}
+
+.mena {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 300px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-3:hover .mena{
+    display: block;
+}
+
+.menf{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 450px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-3:hover .menf{
+    display: block;
+}
+
+.ethw{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 580px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-3:hover .ethw{
+    display: block;
+}
+
+.innm{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 790px;    
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-3:hover .innm{
+    display: block;
+}
+
+/* fourth block for kids*/
+
+
+.kids{
+    padding: 20px 10px 19px 10px;
+}
+
+.kids:hover {
+    border-bottom: 3px solid purple;
+    color: purple;
+    font-style: bold;
+}
+
+.bang{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-4:hover .bang{
+    display: block;
+}
+
+.inelements-1{
+    display: block;
+    flex-direction: column;
+    color: rgb(118, 121, 120);
+}
+
+.cross-1{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    margin-top: 20px;
+
+    li {
+        margin: 4px;
+    }
+}
+
+.inf{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 170px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-4:hover .inf{
+    display: block;
+}
+
+.tana {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 328px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-4:hover .tana{
+    display: block;
+}
+
+.bcc{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 468px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-4:hover .bcc{
+    display: block;
+}
+
+
+/*fifth dropdown for home and appliances */
+
+
+.homekit{
+    padding: 20px 10px 19px 10px;
+}
+
+.homekit:hover {
+    border-bottom: 3px solid purple;
+    color: purple;
+    font-style: bold;
+}
+
+.kaa{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    background-color: aliceblue;
+    z-index:1; 
+}
+
+.opt-5:hover .kaa{
+    display: block;
+}
+
+.inelements-1{
+    display: block;
+    flex-direction: column;
+    color: rgb(118, 121, 120);
+}
+
+.cross-1{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    margin-top: 20px;
+
+    li {
+        margin: 4px;
+    }
+}
+
+.hf{
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 170px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-5:hover .hf{
+    display: block;
+}
+
+.hd {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 380px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-5:hover .hd{
+    display: block;
+}
+
+.kad {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 558px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-5:hover .kad{
+    display: block;
+}
+
+.hi {
+    position: absolute;
+    padding: 20px 30px;
+    width: 200%;
+    height: 230px;
+    top: 132px;
+    left: 0%;
+    display: none;
+    margin-left: 740px;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.opt-5:hover .hi{
+    display: block;
+}

@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto';   
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto-Light.ttf);
+}
+
+.container{
+  justify-content:space-between;       
+   align-items: center;
+   height: 11vh;
+   font-size:11px;
+} 
+.ima{
+ position: absolute;   
+ height: 36px;
+ width: 156px;
+ top: 14px;
+ left: 8px;
+}
+    input{
+        padding: 0px 00px ;
+        height: 45px; 
+        width: 400px;
+        position:fixed;
+        left: 200px;
+        top: 12px;
+    }
+
+    .download-top-nav{
+        display: flex;
+        line-height: 20px;
+        margin: 0px;
+        padding: 0px;
+        gap: 20px;
+        position: relative;
+        justify-content: flex-end;
+        top: 10px;
+        right: 40px;
+        gap: 50px;
+    
+    .andro{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        position: relative;
+        right: -32px;
+        img{
+          height:40px;
+          width:40px;
+        }
+    } 
+    }
+
+    .heap{
+      border-right: 2px solid rgba(161, 157, 157, 0.705);
+      border-left: 2px solid rgba(161, 157, 157, 0.712);
+      padding: 15px 25px ;
+      margin: 0px;
+      position: relative;
+        right: -30px;
+    }
+    .hea{
+        position: relative;
+        right: -20px;
+      }
+
+
+    .advertise{
+    font-size:22px;   
+    color: rgb(58, 58, 58) ;
+    position: relative;
+    left: 166px;
+    top: 63px;
+    font-family: "Roboto-light";
+    .b1{
+     font-family: sans-serif;
+    }
+
+    /*leftla irukura lowest price content*/
+
+    .free{
+      display:flex; 
+      margin: 30px;
+      font-family: sans-serif;
+      position: relative;
+      top:-1px;
+      left:27px;
+      font-size: 15px;
+      gap:90px;
+    }
+    
+    .imm{
+        display:flex; 
+        margin: 30px;
+        font-family: sans-serif;
+        position: relative;
+        top:-63px;
+        left:-10px;
+        font-size: 15px;
+        gap:113px;
+    }
+    
+    .s1{
+      gap: 30px;
+    }
+    
+    .s1::after{
+        content: "|";
+        font-size: 0px;
+        color: rgb(196, 191, 196);
+        position: relative;
+        top: 5px;
+    }
+    
+    button{
+        padding:0px;
+        height:50px ;
+        width:310px;
+        background-color: rgb(131, 19, 131);
+        border: 0px;
+        border-radius: 5px;
+        position: absolute;
+        top:250px;
+        color: antiquewhite;    
+       align-items: flex-end;
+       
+       img{
+        height:40px;
+        width:40px;
+        position: relative;
+        left: -120px;
+        top: 4px;
+       }
+    }
+    h3{
+        position:relative;
+        left: 24px;
+        top: -45px;
+        font-size:18px;
+    }
+    }
+    
+/*right image*/
+
+    .bc{
+        position: absolute;
+        padding: 20px 30px;
+        width:200%;
+        height:230px;
+        top:125px;
+        left:0%;
+        display:none;
+        margin-left:470px;
+        background-color: aliceblue;
+        z-index:1;
+    }
+    
+    .opt-4:hover .bc{
+        display: block;
+    }
+    
+    #righpic{
+        position: absolute;
+        left: 710px;
+        top: 180px;
+    }
+    
+    .line
+    {
+    position: relative;
+    top: 160px;
+    
+    .lin{
+        padding: 0.09px;
+        max-width: 1100px;
+        background-color: rgba(191, 65, 223, 0.452);
+        position: relative;
+        left: 125px;
+        top: 20px;
+    }
+    
+    h1{
+        position:relative;
+        font-size: 35px;
+        font-family: sans-serif;
+        color: rgb(58, 57, 57);
+        top: -38px;
+        left: 400px;
+        padding: 11px;
+        max-width: 520px;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+    }    
+    }
+    
+    
